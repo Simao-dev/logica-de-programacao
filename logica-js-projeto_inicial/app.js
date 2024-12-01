@@ -1,4 +1,4 @@
-/*let informacaoUsuario = window.prompt('Digite um numero entre 1 e 40')
+let informacaoUsuario = window.prompt('Digite um numero entre 1 e 40')
 let numeroSecreto = 40;
 
 if ( informacaoUsuario == numeroSecreto) {
@@ -6,8 +6,8 @@ if ( informacaoUsuario == numeroSecreto) {
 } else{
     window.alert('você errou')
 }
-*/
-let quantidadeMilhas = 4000;
+
+/*let quantidadeMilhas = 4000;
 let PorcetagemDesconto = 0;
 
 if (quantidadeMilhas >= 30000){
@@ -21,4 +21,4 @@ else {
 }
 
 
-console.log(PorcetagemDesconto)
+console.log(PorcetagemDesconto)*/
