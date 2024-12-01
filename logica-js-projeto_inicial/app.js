@@ -1,4 +1,4 @@
-let informacaoUsuario = window.prompt('Digite um numero entre 1 e 40')
+/*let informacaoUsuario = window.prompt('Digite um numero entre 1 e 40')
 let numeroSecreto = 40;
 
 if ( informacaoUsuario == numeroSecreto) {
@@ -22,3 +22,4 @@ else {
 
 
 console.log(PorcetagemDesconto)*/
+
