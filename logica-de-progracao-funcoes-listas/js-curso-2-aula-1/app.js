@@ -1,15 +1,19 @@
 let numeroSecreto = gerarNumeroAleatorio();
-
+exibirMensagemInicial();
 let tentativas = 1;
 
 function exibirTestoNaTela (tag, texto){
     
     let campo = document.querySelector(tag);
     campo.innerHTML = texto
+    
 }
 
-exibirTestoNaTela('h1', 'Jogo do numero secreto');
-exibirTestoNaTela('p', 'Escolha um numero entre 1 e 10');
+function exibirMensagemInicial(){
+    exibirTestoNaTela('h1', 'Jogo do numero secreto');
+    exibirTestoNaTela('p', 'Escolha um numero entre 1 e 10');
+}
+
 
 function verificarChute() {
     let chute = document.querySelector('input').value;
@@ -40,6 +44,15 @@ function gerarNumeroAleatorio () {
 function limpaCampo(){
     chute = document.querySelector('input');
     chute.value = '';
+}
+
+function reiniciarJogo(){
+    numeroSecreto =  gerarNumeroAleatorio();
+    limpaCampo();
+    tentativas = 1;
+    exibirMensagemInicial();
+    document.getElementById('reiniciar').setAttribute('disabled',true);
+
 }
 
 /* EXERCICIOS
