@@ -120,3 +120,21 @@ function saudacao(nome){
  let multiplica = mult(10)
 
  console.log (multiplica) */
+
+
+
+/* function calculaImc (peso,altura){
+    return(peso/(altura*altura))
+ }
+ 
+let imc = calculaImc(70,1.70)
+
+console.log(imc)*/
+
+function calculoDolar(real){
+    return(4.80*real)
+}
+
+let valor = calculoDolar(5)
+
+console.log(valor)
