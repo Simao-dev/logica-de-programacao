@@ -131,10 +131,62 @@ let imc = calculaImc(70,1.70)
 
 console.log(imc)*/
 
-function calculoDolar(real){
+/*function calculoDolar(real){
     return(4.80*real)
 }
 
 let valor = calculoDolar(5)
 
 console.log(valor)
+
+
+function fatorial(numero){
+
+    let numeroInicial = numero
+    for (i = numeroInicial - 1; i > 1; i --) {
+        numero = numero * i
+
+    }
+    
+    return(numero)
+    
+}
+
+
+   console.log(fatorial(5))
+
+function perimetrometro(altura, largura){
+        
+    const perimetro = 2
+
+    return(perimetro * (largura + altura))
+
+
+}
+
+   let dados = perimetrometro (170,150)
+
+   console.log(dados) 
+
+
+function areaDoCirculo(raio){
+    const perimetro = 2
+    const pi = 3.14
+    resultado = perimetro * pi * raio 
+    return(resultado)
+}
+
+let dados = areaDoCirculo(9)
+
+console.log(dados)  
+
+
+function tabuada(numero){
+    let resultado = 0
+    for (i = 1; i <= 10; i ++) {
+        resultado = numero * i
+        console.log(`o resultado de ${numero} x ${i} = ${resultado}`)
+    }
+
+}
+tabuada(5)*/
